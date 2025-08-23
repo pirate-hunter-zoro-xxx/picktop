@@ -16,7 +16,7 @@ export default function Header() {
               <i className="ri-home-4-line text-white text-lg"></i>
             </div>
             <h1 className="text-xl font-light text-slate-900 tracking-wider">
-              PICK TOP <span className="font-bold">INTERIOR'S</span>
+                <span className="font-bold">PICK TOP</span> INTERIOR'S
             </h1>
           </div>
           
