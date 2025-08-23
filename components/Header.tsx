@@ -12,15 +12,14 @@ export default function Header() {
       <div className="container mx-auto px-4 py-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <div className="w-10 h-10 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full flex items-center justify-center mr-4">
-              <i className="ri-home-4-line text-white text-lg"></i>
+            <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full flex items-center justify-center mr-4 shadow-lg">
+              <i className="ri-home-4-line text-white text-xl"></i>
             </div>
-            <h1 className="text-xl font-light text-slate-900 tracking-wider">
-                <span className="font-bold">PICK TOP</span> INTERIOR'S
+            <h1 className="text-2xl font-light text-slate-900 tracking-wider">
+              <span className="font-bold text-amber-600 text-shadow">PICK TOP</span> 
+              <span className="text-slate-700">INTERIOR'S</span>
             </h1>
-          </div>
-          
-          <nav className="hidden md:flex space-x-8">
+          </div>          <nav className="hidden md:flex space-x-8">
             <Link href="/" className="text-gray-700 hover:text-amber-600 transition-colors">
               Home
             </Link>
