@@ -15,10 +15,12 @@ export default function Header() {
             <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full flex items-center justify-center mr-4 shadow-lg">
               <i className="ri-home-4-line text-white text-xl"></i>
             </div>
-            <h1 className="text-2xl font-light text-slate-900 tracking-wider">
-              <span className="font-bold text-amber-600 text-shadow">PICK TOP</span> 
-              <span className="text-slate-700">INTERIOR'S</span>
-            </h1>
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 border-2 border-amber-200 rounded-lg px-4 py-2 shadow-sm">
+              <h1 className="text-2xl font-light tracking-wider">
+                <span className="font-bold text-amber-700">PICK TOP</span> 
+                <span className="text-slate-700">INTERIOR'S</span>
+              </h1>
+            </div>
           </div>          <nav className="hidden md:flex space-x-8">
             <Link href="/" className="text-gray-700 hover:text-amber-600 transition-colors">
               Home
