@@ -1,6 +1,8 @@
 
 'use client';
 
+import Link from 'next/link';
+
 export default function FeaturedServices() {
   const services = [
     {
@@ -69,12 +71,15 @@ export default function FeaturedServices() {
                   ))}
                 </div>
                 
-                <button className="group w-full bg-slate-900 hover:bg-amber-500 text-white font-medium px-6 py-4 rounded-none transition-all duration-300 whitespace-nowrap cursor-pointer">
+                <Link 
+                  href="/services"
+                  className="group w-full bg-slate-900 hover:bg-amber-500 text-white font-medium px-6 py-4 rounded-none transition-all duration-300 whitespace-nowrap cursor-pointer inline-block text-center"
+                >
                   <span className="flex items-center justify-center">
                     Explore Service
                     <i className="ri-arrow-right-line ml-2 group-hover:translate-x-1 transition-transform"></i>
                   </span>
-                </button>
+                </Link>
               </div>
             </div>
           ))}

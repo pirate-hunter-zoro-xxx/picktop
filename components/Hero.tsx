@@ -1,6 +1,7 @@
 
 'use client';
 
+import Link from 'next/link';
 import { openWhatsApp } from '@/utils/whatsapp';
 
 export default function Hero() {
@@ -44,12 +45,15 @@ export default function Hero() {
                 <i className="ri-arrow-right-line ml-2 group-hover:translate-x-1 transition-transform"></i>
               </span>
             </button>
-            <button className="group border-2 border-white/30 text-white hover:bg-white/10 hover:border-white font-semibold px-10 py-5 rounded-none transition-all whitespace-nowrap cursor-pointer text-lg backdrop-blur-sm">
+            <Link 
+              href="/services"
+              className="group border-2 border-white/30 text-white hover:bg-white/10 hover:border-white font-semibold px-10 py-5 rounded-none transition-all whitespace-nowrap cursor-pointer text-lg backdrop-blur-sm inline-block"
+            >
               <span className="flex items-center">
-                View Portfolio
-                <i className="ri-external-link-line ml-2 group-hover:translate-x-1 transition-transform"></i>
+                Explore Services
+                <i className="ri-arrow-right-line ml-2 group-hover:translate-x-1 transition-transform"></i>
               </span>
-            </button>
+            </Link>
           </div>
           
           <div className="mt-16 grid grid-cols-2 lg:grid-cols-3 gap-8 text-center">

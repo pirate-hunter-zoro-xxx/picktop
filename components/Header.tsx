@@ -8,20 +8,21 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white/95 backdrop-blur-sm shadow-sm sticky top-0 z-50 border-b border-slate-100">
+    <header className="bg-white/60 backdrop-blur-lg shadow-md sticky top-0 z-50 border-b border-slate-100/30">
       <div className="container mx-auto px-4 py-6">
         <div className="flex items-center justify-between">
-          <div className="flex items-center">
-            <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full flex items-center justify-center mr-4 shadow-lg">
+          <Link href="/" className="flex items-center group">
+            <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full flex items-center justify-center mr-4 shadow-lg group-hover:scale-105 transition-transform">
               <i className="ri-home-4-line text-white text-xl"></i>
             </div>
-            <div className="bg-gradient-to-r from-amber-50 to-orange-50 border-2 border-amber-200 rounded-lg px-4 py-2 shadow-sm">
-              <h1 className="text-2xl font-light tracking-wider">
-                <span className="font-bold text-amber-700">PICK TOP</span> 
-                <span className="text-slate-700">INTERIOR'S</span>
+            <div className="bg-gradient-to-r from-black/80 via-slate-900/80 to-black/80 backdrop-blur-sm border-2 border-amber-400/60 rounded-sm px-6 py-3 shadow-2xl relative overflow-hidden group-hover:border-amber-400/80 transition-all">
+              <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 via-transparent to-amber-500/10"></div>
+              <h1 className="text-2xl font-light tracking-[0.2em] relative z-10">
+                <span className="font-bold bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-400 bg-clip-text text-transparent drop-shadow-sm">PICK TOP</span> 
+                <span className="text-white font-medium ml-1 drop-shadow-sm">INTERIOR'S</span>
               </h1>
             </div>
-          </div>          <nav className="hidden md:flex space-x-8">
+          </Link>          <nav className="hidden md:flex space-x-8">
             <Link href="/" className="text-gray-700 hover:text-amber-600 transition-colors">
               Home
             </Link>
