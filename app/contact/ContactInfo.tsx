@@ -19,7 +19,11 @@ export default function ContactInfo() {
     {
       icon: 'ri-phone-line',
       title: 'Phone',
-      details: ['+91 99468 26583'],
+      details: [
+        '+91 99468 26583',
+        '+91 98463 40014', 
+        '+91 94007 65687'
+      ],
       action: {
         text: 'Call Now',
         href: 'tel:+919946826583'
@@ -28,10 +32,10 @@ export default function ContactInfo() {
     {
       icon: 'ri-mail-line',
       title: 'Email',
-      details: ['info@picktopinteriors.com'],
+      details: ['picktopinteriors@gmail.com'],
       action: {
         text: 'Send Email',
-        href: 'mailto:info@picktopinteriors.com'
+        href: 'mailto:picktopinteriors@gmail.com'
       }
     }
   ];

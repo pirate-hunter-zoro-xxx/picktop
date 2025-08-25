@@ -63,11 +63,25 @@ export default function Footer() {
                   Service Road, OPP Police Station, Kodakara, Kerala-680 684
                 </span>
               </div>
-              <div className="flex items-center">
-                <i className="ri-phone-line w-5 h-5 flex items-center justify-center text-amber-400 mr-3"></i>
-                <a href="tel:+919946826583" className="text-slate-400 hover:text-amber-400 transition-colors cursor-pointer text-sm">
-                  +91 99468 26583
-                </a>
+              <div className="flex flex-col space-y-2">
+                <div className="flex items-center">
+                  <i className="ri-phone-line w-5 h-5 flex items-center justify-center text-amber-400 mr-3"></i>
+                  <a href="tel:+919946826583" className="text-slate-400 hover:text-amber-400 transition-colors cursor-pointer text-sm">
+                    +91 99468 26583
+                  </a>
+                </div>
+                <div className="flex items-center">
+                  <i className="ri-phone-line w-5 h-5 flex items-center justify-center text-amber-400 mr-3"></i>
+                  <a href="tel:+919846340014" className="text-slate-400 hover:text-amber-400 transition-colors cursor-pointer text-sm">
+                    +91 98463 40014
+                  </a>
+                </div>
+                <div className="flex items-center">
+                  <i className="ri-phone-line w-5 h-5 flex items-center justify-center text-amber-400 mr-3"></i>
+                  <a href="tel:+919400765687" className="text-slate-400 hover:text-amber-400 transition-colors cursor-pointer text-sm">
+                    +91 94007 65687
+                  </a>
+                </div>
               </div>
             </div>
             

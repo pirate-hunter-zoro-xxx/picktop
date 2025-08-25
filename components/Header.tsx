@@ -12,14 +12,14 @@ export default function Header() {
       <div className="container mx-auto px-4 py-6">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center group">
-            <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full flex items-center justify-center mr-4 shadow-lg group-hover:scale-105 transition-transform">
-              <i className="ri-home-4-line text-white text-xl"></i>
+            <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full flex items-center justify-center mr-2 sm:mr-4 shadow-lg group-hover:scale-105 transition-transform">
+              <i className="ri-home-4-line text-white text-lg sm:text-xl"></i>
             </div>
-            <div className="bg-gradient-to-r from-black/80 via-slate-900/80 to-black/80 backdrop-blur-sm border-2 border-amber-400/60 rounded-sm px-6 py-3 shadow-2xl relative overflow-hidden group-hover:border-amber-400/80 transition-all">
+            <div className="bg-gradient-to-r from-black/80 via-slate-900/80 to-black/80 backdrop-blur-sm border border-amber-400/60 sm:border-2 rounded-sm px-3 py-2 sm:px-6 sm:py-3 shadow-2xl relative overflow-hidden group-hover:border-amber-400/80 transition-all">
               <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 via-transparent to-amber-500/10"></div>
-              <h1 className="text-2xl font-light tracking-[0.2em] relative z-10">
-                <span className="font-bold bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-400 bg-clip-text text-transparent drop-shadow-sm">PICK TOP</span> 
-                <span className="text-white font-medium ml-1 drop-shadow-sm">INTERIOR'S</span>
+              <h1 className="text-base sm:text-2xl font-light tracking-tight sm:tracking-[0.2em] relative z-10 flex flex-col sm:flex-row items-center sm:items-baseline">
+                <span className="font-bold bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-400 bg-clip-text text-transparent drop-shadow-sm leading-tight">PICK TOP</span> 
+                <span className="text-white font-medium text-xs sm:text-2xl sm:ml-1 drop-shadow-sm leading-tight">INTERIOR'S</span>
               </h1>
             </div>
           </Link>          <nav className="hidden md:flex space-x-8">
